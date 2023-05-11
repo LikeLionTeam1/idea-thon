@@ -180,3 +180,7 @@ footer p span {
   margin-top: 13px;
   font-size: 20px;
 }
+
+.header .nav a:hover {
+  color: rgb(40, 40, 229);
+}

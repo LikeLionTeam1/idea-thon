@@ -97,6 +97,10 @@ footer p span {
   font-size: 20px;
 }
 
+.header .nav a:hover {
+  color: rgb(40, 40, 229);
+}
+
 @keyframes fadeInLeft {
   0% {
       opacity: 0;

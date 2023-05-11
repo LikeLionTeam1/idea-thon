@@ -97,19 +97,23 @@ footer p span {
   font-size: 20px;
 }
 
-  select {
-    width: 300px;
-    height: 50px;
-    padding: 1px;
-    border: 1px solid #999;
-    font-family: 'IBMPlexSansKR-Regular';
-    font-size: 20px;
-    border-radius: 3px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
+.header .nav a:hover {
+  color: rgb(40, 40, 229);
+}
 
-  select::-ms-expand {
-    display: none;
-  }
+select {
+  width: 300px;
+  height: 50px;
+  padding: 1px;
+  border: 1px solid #999;
+  font-family: 'IBMPlexSansKR-Regular';
+  font-size: 20px;
+  border-radius: 3px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
