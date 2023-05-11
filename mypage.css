@@ -96,10 +96,9 @@ html, body {
 
 
 .profile {
-    align-content: center;
-    justify-content:center;
-    margin:80px;
-    margin-left: 25px;
+    margin: 0 auto 10px;
+    justify-content: space-between;
+    margin:30px;
     padding:0;
     background-color: blue;
     color:white;
@@ -109,12 +108,20 @@ html, body {
     display: inline-block;
 }
 
- 
-h2 {
-    align-content: center;
-    justify-content:center;
+.profile_m {
+    margin: 0 auto 10px;
+    justify-content: space-between;
     justify-content:space-around;
-    margin:80px;
+    margin:30px;
+    padding:0;
+}
+
+
+h2 {
+    margin: 0 auto 10px;
+    justify-content: space-between;
+    justify-content:space-around;
+    margin:30px;
     padding:0;
     float:left;
     margin-left: 25px;
