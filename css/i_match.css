@@ -1,9 +1,17 @@
 @font-face {
-    font-family: 'IBMPlexSansKR-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'IBMPlexSansKR-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
+
+@font-face {
+font-family: 'Tenada';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
 
 html, body {
     margin: 0;
@@ -54,7 +62,7 @@ html, body {
   .item{
     width: 480px;
     height: 130px;
-    border: 1px solid black;
+    border: 2px solid black;
     margin-left: 40px;
     margin-right: 40px;
     display: flex;
@@ -85,6 +93,7 @@ html, body {
   width: 30%;
   height: 100%;
   margin-right: 17px;
+  border-radius: 10px;
 }
 
 .profile{
@@ -110,44 +119,51 @@ html, body {
   font-size: 18px;
   display: flex;
   justify-content: space-between;
+
 }
 
 .text3{
   font-size: 18px;
   display: flex;
   justify-content: space-between;
+
 }
 
-  footer {
-    width: 100%;
-    height: 90px;
-    bottom: 0px;
-    position: absolute;
-    padding-top: 15px;
-    color: #808080;
-    font-size: 11px;
-    display: flex;
-    background-color: white;
-  }
-  
-  footer a {
-    display: inline-block;
-    margin: 0 0px 0px 10px;
-    color: #808080; 
-    font-size: 11px;
-  }
-  
-  footer p {
-    margin-top: 10px; margin-bottom: 0;   
-    font-size: 15px;
-    width: 756px;
-  }
-  
-  footer p span {
-    display: inline-block;
-    margin-left: 30px;
-    padding-left: 126px;
-  }
+.send{
+  background: mediumblue;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+footer {
+  width: 100%;
+  height: 90px;
+  bottom: 0px;
+  position: absolute;
+  padding-top: 15px;
+  color: #808080;
+  font-size: 11px;
+  display: flex;
+  background-color: white;
+}
+
+footer a {
+  display: inline-block;
+  margin: 0 0px 0px 10px;
+  color: #808080; 
+  font-size: 11px;
+}
+
+footer p {
+  margin-top: 10px; margin-bottom: 0;   
+  font-size: 15px;
+  width: 100%;
+}
+
+footer p span {
+  display: inline-block;
+  margin-left: 30px;
+  padding-left: 126px;
+}
 
   .figma {
     width: 50px;
@@ -166,25 +182,40 @@ html, body {
     width: 80%;
     height: 72px;
     margin: 0 auto 10px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     font-family: 'IBMPlexSansKR-Regular';
   }
-
+  
   .header h1 a {
     text-decoration: none;
-    color: blue;
+    color: rgb(40, 40, 229);
+    font-family: 'Tenada';
   }
-
+  
   .header .nav ul li {
     display: inline-block;
     margin: 0 10px;
   }
-
+  
   .header .nav ul li a {
     text-decoration: none;
     display: inline-block;
     color: black;
     margin-top: 13px;
     font-size: 20px;
+  }
+  
+  .main_text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-family: 'IBMPlexSansKR-Regular';
+    text-align: right;
+    color: white;
+    margin-right: 320px;
   }
