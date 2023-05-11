@@ -128,7 +128,6 @@ h2 {
     margin:30px;
     padding:0;
     text-align: center;
-    float: left;
     display: inline-block;
     margin-left: 25px;
     line-height: 80px;
@@ -137,12 +136,12 @@ h2 {
         color: rgb(63, 73, 81);
         padding: 50px 50px;
         text-decoration: none;
-        display: inline-block;
     }
 
+    .contents {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+    }
 
-    /* h2에 해당하는 회색 부분을 가운데 정렬하려면 어떻게 해야할까요 ㅠㅠ float:left;때문에 왼쪽으로 자꾸 정렬이 됩니다ㅠ
-  float left를 없애면 가운데 정렬만되고 아래로만 계속 내려가져서 고민입니다............구글링해서  float: left 속성을 display: inline-block으로 대체라는 방법도
-  해봤는데 계속 안되더라구요............ 
-
-  추가적으로 회색 박스들을 왼 오로 나눠 정렬하고 싶은데 어디서부터 어떻게 해야할지 도저히 답이 안 나와서 얘도 함께 여쭤보고 싶습니다 ㅠㅠㅠㅠ
+    /* h
