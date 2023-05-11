@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'IBMPlexSansKR-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tenada';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  min-height: 88.95vh;
+  position: relative;
+  width: 100%; 
+  background-color: #f2f2f2;
+}
+
+footer {
+  width: 100%;
+  height: 90px;
+  bottom: 0px;
+  position: absolute;
+  padding-top: 15px;
+  color: #808080;
+  font-size: 11px;
+  display: flex;
+  background-color: white;
+}
+
+footer a {
+  display: inline-block;
+  margin: 0 0px 0px 10px;
+  color: #808080; 
+  font-size: 11px;
+}
+
+footer p {
+  margin-top: 10px; margin-bottom: 0;   
+  font-size: 15px;
+  width: 100%;
+}
+
+footer p span {
+  display: inline-block;
+  margin-left: 30px;
+  padding-left: 126px;
+}
+
+.figma {
+  width: 50px;
+  height: 50px;
+  margin-right: 0px;
+}
+
+.github {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  padding-right: 135px;
+}
+
+.header {
+  width: 80%;
+  height: 72px;
+  margin: 0 auto 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'IBMPlexSansKR-Regular';
+}
+
+.header h1 a {
+  text-decoration: none;
+  color: rgb(40, 40, 229);
+  font-family: 'Tenada';
+}
+
+.header .nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.header .nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  margin-top: 13px;
+  font-size: 20px;
+}
+
+@keyframes fadeInLeft {
+  0% {
+      opacity: 0;
+      /* 왼쪽에서 오른쪽으로 */
+      transform: translate3d(-100%, -50%, 0);
+      /* 제자리 페이드인 */
+      /* transform: translate3d(-50%, -50%, 0); */
+  }
+  to {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+  }
+}
+
+.main_text {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  font-family: 'IBMPlexSansKR-Regular';
+  text-align: right;
+  color: white;
+  margin-right: 320px;
+
+  animation: fadeInLeft 3s;
+}
