@@ -90,9 +90,20 @@ html, body {
 
   #box {
     background-color: white;
-    width: 700px;
-    height: 300px;
+    width: 800px;
+    height: 270px;
     margin: auto;
     left: 0%;
-    transform: translate(0%, 40%);
+    transform: translate(0%, 50%);
+  }
+
+  #matching {
+    color: white;
+    text-align: center;
+    background-color: blue;
+    width: 450px;
+    height: 55px;
+    margin: auto;
+    left: 0%;
+    transform: translate(0%, 200%);
   }
