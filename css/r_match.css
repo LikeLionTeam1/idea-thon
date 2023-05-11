@@ -102,13 +102,13 @@ footer p span {
 }
 
 select {
-  width: 300px;
+  width: 230px;
   height: 50px;
   padding: 1px;
   border: 1px solid #999;
   font-family: 'IBMPlexSansKR-Regular';
   font-size: 20px;
-  border-radius: 3px;
+  border-radius: 15px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -116,4 +116,27 @@ select {
 
 select::-ms-expand {
   display: none;
+}
+
+.btn {
+  font-family: 'IBMPlexSansKR-Regular';
+  font-size: 25px;
+  width: 150px; 
+  height: 55px;
+  border-radius: 15px;
+  border: 1px solid #999;
+  background-color: mediumblue;
+  color: white;
+  box-shadow: #808080;
+}
+
+.btn:active {
+  margin-left: 3px;
+  margin-top: 3px;
+  box-shadow: none;
+}
+
+.title {
+  font-family: 'IBMPlexSansKR-Regular';
+  font-size: 50px;
 }
