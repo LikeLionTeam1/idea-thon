@@ -136,7 +136,17 @@ select::-ms-expand {
   box-shadow: none;
 }
 
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
 .title {
   font-family: 'IBMPlexSansKR-Regular';
   font-size: 50px;
+  animation: fadeIn 2s;
 }
