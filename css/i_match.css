@@ -8,6 +8,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   
   #wrap {
@@ -24,8 +25,18 @@ html, body {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto; 
-    border: 3px solid blue;
     align-self: center;
+    margin-top: 10px;
+
+  }
+  .searchpost{
+    width: 100%;
+    height: 100%;
+    border: 3px solid blue;
+    
+    font-size: 20px;
+
+    padding-left: 10px;
   }
 
   .container {
@@ -41,15 +52,18 @@ html, body {
   }
 
   .item{
-    width: 500px;
-    height: 150px;
+    width: 480px;
+    height: 130px;
     border: 1px solid black;
     margin-left: 40px;
     margin-right: 40px;
+    display: flex;
+    padding: 20px 40px;
 }
-
+/*
 .item1{
-    background: #ef9a9a;
+
+    
 }
 .item2{
     background: #f48fb1;
@@ -65,11 +79,45 @@ html, body {
 }
 .item6{
     background: #a5d6a7;
+}*/
+
+.image{
+  width: 30%;
+  height: 100%;
+  margin-right: 17px;
 }
 
-.grid{
-  display: grid;
+.profile{
+  width: 130px;
+  height: 130px;
 }
+
+.info{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+
+  justify-content: space-between;
+}
+
+.text1{
+  font-size: 21px;
+    display: flex;
+}
+.text2{
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text3{
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
   footer {
     width: 100%;
     height: 90px;
