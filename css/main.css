@@ -100,7 +100,10 @@ footer p span {
 @keyframes fadeInLeft {
   0% {
       opacity: 0;
-      transform: translate3d(-100%, -50%, 0);
+      /* 왼쪽에서 오른쪽으로 */
+      /* transform: translate3d(-100%, -50%, 0); */
+      /* 제자리 페이드인 */
+      transform: translate3d(-50%, -50%, 0);
   }
   to {
       opacity: 1;
