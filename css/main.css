@@ -98,7 +98,7 @@ footer p span {
 }
 
 .header .nav a:hover {
-  color: rgb(40, 40, 229);
+  color: rgb(161, 161, 161);
 }
 
 @keyframes fadeInLeft {
