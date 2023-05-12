@@ -44,7 +44,8 @@ footer a {
 }
 
 footer p {
-  margin-top: 10px; margin-bottom: 0;   
+  margin-top: 10px;
+  margin-bottom: 0;   
   font-size: 15px;
   width: 100%;
 }
@@ -145,8 +146,17 @@ select::-ms-expand {
   }
 }
 
-.title {
+p.title {
   font-family: 'IBMPlexSansKR-Regular';
   font-size: 50px;
   animation: fadeIn 2s;
+  margin: 0px;
+  margin-top: 60px;
+}
+
+p.sub {
+  color: gray;
+  font-family: 'IBMPlexSansKR-Regular'; 
+  font-size: 20px;
+  animation: fadeIn 7s;
 }
