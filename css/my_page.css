@@ -100,3 +100,88 @@
   .header .nav a:hover {
     color: rgb(161, 161, 161);
   }
+
+  .sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    padding: 120px 0;
+    font-size: 17px;
+  }
+
+  .temp-class {
+    position: relative;
+  }
+
+  .profile {
+    border-radius: 140px;
+    justify-content: space-between;
+    margin:10px;
+    padding:0;
+    /* background-color: blue;
+    color:white;
+    padding: 70px 70px;
+    text-decoration: none; */
+    display: inline-block;
+  }
+
+  .contents1 {
+    position: absolute;
+    background-color: rgb(214, 214, 214);
+    top:40%;
+    left:40%;
+  }
+
+  .contents2 {
+    position: absolute;
+    background-color: rgb(214, 214, 214);
+    top:80%;
+    left:40%;
+  }
+
+  .contents3 {
+    position: absolute;
+    background-color: rgb(214, 214, 214);
+    top:auto;
+    left:auto;
+  }
+
+  .contents4 {
+    position: absolute;
+    background-color: rgb(214, 214, 214);
+    top:auto;
+    /* top:auto; - 여기 해당 부분 top값하고 left 값 수정해야함 */
+    left:auto;
+  }
+
+  .profile_m {
+    margin: 0 auto 10px;
+    justify-content: space-between;
+    justify-content:space-around;
+    margin:2px;
+    padding:0;
+    font-size: 20px;
+  }
+
+  h2 {
+    justify-content:space-around;
+    padding:0;
+    text-align: center;
+    display: inline-block;
+    line-height: 60px;
+    border-radius: 15px;
+    width:300px;
+    background-color: rgb(214, 214, 214);
+    color: rgb(63, 73, 81);
+    padding: 50px 50px;
+    text-decoration: none;
+  }
+
+  .contents {
+    display: flex;
+    height: 300%;
+    justify-content: center;
+    flex-direction: column;
+  }
