@@ -14,7 +14,7 @@ html, body {
     min-height: 88.95vh;
     position: relative;
     width: 100%; 
-    background-color: #1C1C1C;
+    background-color: #E6E6E6;
   }
   
   footer {
@@ -88,60 +88,9 @@ html, body {
     font-size: 20px;
   }
 
-  #box {
-    background-color: white;
-    width: 800px;
-    height: 270px;
-    margin: auto;
-    left: 0%;
-    transform: translate(0%, 50%);
-  }
-
-  #matching {
-    color: white;
-    text-align: center;
+  #profile {
     background-color: blue;
-    width: 450px;
-    height: 55px;
-    margin: auto;
-    left: 0%;
-    transform: translate(0%, 200%);
-  }
-
-  #exercise {
-    border-color: #1C1C1C;
-    border: 1px solid #1C1C1C;
-    width: 550px;
-    height: 50px;
-    text-align: left;
-    transform: translate(15%, 83%);
-  }
-
-  #place {
-    border-color: #1C1C1C;
-    border: 1px solid #1C1C1C;
-    width: 200px;
-    height: 50px;
-    text-align: left;
-    transform: translate(30%, 153%);
-    margin-right: 10px;
-  }
-
-  #sex {
-    border-color: #1C1C1C;
-    border: 1px solid #1C1C1C;
-    width: 150px;
-    height: 50px;
-    text-align: left;
-    margin-right: 10px;
-    float: right;
-  }
-  
-  #age {
-    border-color: #1C1C1C;
-    border: 1px solid #1C1C1C;
-    width: 150px;
-    height: 50px;
-    text-align: left;
-    float: right;
+    width: 80px;
+    height: 80px;
+    transform: translate(150%, 50%);
   }
