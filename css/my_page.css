@@ -107,18 +107,19 @@
     justify-content: space-around;
     text-align: center;
     position: relative;
-    padding: 120px 0;
+    padding: 0px 0;
     font-size: 17px;
   }
 
   .temp-class {
     position: relative;
+    /* padding: 75px 0; */
+    margin-top: 75px;
   }
 
   .profile {
     border-radius: 140px;
     justify-content: space-between;
-    margin:10px;
     padding:0;
     /* background-color: blue;
     color:white;
@@ -157,12 +158,10 @@
   }
 
   .profile_m {
-    margin: 0 auto 10px;
     justify-content: space-between;
     justify-content:space-around;
     margin:2px;
-    padding:0;
-    font-size: 20px;
+    font-size: 30px;
   }
 
   h2 {
@@ -184,4 +183,5 @@
     height: 300%;
     justify-content: center;
     flex-direction: column;
+    margin-top: 120px;
   }
