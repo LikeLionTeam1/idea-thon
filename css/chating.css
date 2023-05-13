@@ -218,16 +218,26 @@
     background-repeat: no-repeat;
   }
 
+  .blue {
+    width: 500px;
+    height: 83px;
+    background-color: mediumblue;
+    margin-bottom: 0px;
+    border: 0.1px dotted gray;
+  }
+
   .white {
     width: 500px;
-    height: 83.5px; 
+    height: 83px; 
     background-color: white; 
     margin-bottom: 0px;
+    border: 0.1px dotted gray;
   }
 
   .gray {
     width: 500px;
-    height: 83.5px; 
+    height: 83px; 
     background-color: gainsboro; 
     margin-bottom: 0px;
+    border: 0.1px dotted gray;
   }
