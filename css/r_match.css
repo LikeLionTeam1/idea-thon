@@ -1,166 +1,162 @@
 @font-face {
-    font-family: 'IBMPlexSansKR-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'IBMPlexSansKR-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tenada';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  min-height: 88.95vh;
+  position: relative;
+  width: 100%; 
+  background-color: #f2f2f2;
+}
+
+footer {
+  width: 100%;
+  height: 90px;
+  bottom: 0px;
+  position: absolute;
+  padding-top: 15px;
+  color: #808080;
+  font-size: 11px;
+  display: flex;
+  background-color: white;
+}
+
+footer a {
+  display: inline-block;
+  margin: 0 0px 0px 10px;
+  color: #808080; 
+  font-size: 11px;
+}
+
+footer p {
+  margin-top: 10px;
+  margin-bottom: 0;   
+  font-size: 15px;
+  width: 100%;
+}
+
+footer p span {
+  display: inline-block;
+  margin-left: 30px;
+  padding-left: 126px;
+}
+
+.figma {
+  width: 50px;
+  height: 50px;
+  margin-right: 0px;
+}
+
+.github {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  padding-right: 135px;
+}
+
+.header {
+  width: 80%;
+  height: 72px;
+  margin: 0 auto 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'IBMPlexSansKR-Regular';
+}
+
+.header h1 a {
+  text-decoration: none;
+  color: rgb(40, 40, 229);
+  font-family: 'Tenada';
+}
+
+.header .nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.header .nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  margin-top: 13px;
+  font-size: 20px;
+}
+
+.header .nav a:hover {
+  color: rgb(161, 161, 161);
+}
+
+select {
+  width: 230px;
+  height: 50px;
+  padding: 1px;
+  border: 1px solid #999;
+  font-family: 'IBMPlexSansKR-Regular';
+  font-size: 20px;
+  border-radius: 15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.btn {
+  font-family: 'IBMPlexSansKR-Regular';
+  font-size: 25px;
+  width: 150px; 
+  height: 55px;
+  border-radius: 15px;
+  border: 1px solid #999;
+  background-color: mediumblue;
+  color: white;
+  box-shadow: #808080;
+}
+
+.btn:active {
+  margin-left: 3px;
+  margin-top: 3px;
+  box-shadow: none;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
   }
-  
-  @font-face {
-    font-family: 'Tenada';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+  to {
+      opacity: 1;
   }
-  
-  html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'IBMPlexSansKR-Regular';
-    font-size: 20px;
-    font-weight: normal;
-  }
-  
-  #wrap {
-    min-height: 88.95vh;
-    position: relative;
-    width: 100%; 
-    background-color: #f2f2f2;
-  }
-  
-  footer {
-    width: 100%;
-    height: 90px;
-    bottom: 0px;
-    position: absolute;
-    padding-top: 15px;
-    color: #808080;
-    font-size: 11px;
-    display: flex;
-    background-color: white;
-  }
-  
-  footer a {
-    display: inline-block;
-    margin: 0 0px 0px 10px;
-    color: #808080; 
-    font-size: 11px;
-  }
-  
-  footer p {
-    margin-top: 10px;
-    margin-bottom: 0;   
-    font-size: 15px;
-    width: 100%;
-  }
-  
-  footer p span {
-    display: inline-block;
-    margin-left: 30px;
-    padding-left: 126px;
-  }
-  
-  .figma {
-    width: 50px;
-    height: 50px;
-    margin-right: 0px;
-  }
-  
-  .github {
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
-    padding-right: 135px;
-  }
-  
-  .header {
-    width: 80%;
-    height: 72px;
-    margin: 0 auto 10px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    font-family: 'IBMPlexSansKR-Regular';
-  }
-  
-  .header h1 a {
-    text-decoration: none;
-    color: rgb(40, 40, 229);
-    font-family: 'Tenada';
-  }
-  
-  .header .nav ul li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  
-  .header .nav ul li a {
-    text-decoration: none;
-    display: inline-block;
-    color: black;
-    margin-top: 13px;
-    font-size: 20px;
-  }
-  
-  .header .nav a:hover {
-    color: rgb(161, 161, 161);
-  }
-  
-  select {
-    width: 230px;
-    height: 50px;
-    padding: 1px;
-    border: 1px solid #999;
-    font-family: 'IBMPlexSansKR-Regular';
-    font-size: 20px;
-    border-radius: 15px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-  }
-  
-  select::-ms-expand {
-    display: none;
-  }
-  
-  .btn {
-    font-family: 'IBMPlexSansKR-Regular';
-    font-size: 25px;
-    width: 150px; 
-    height: 55px;
-    border-radius: 15px;
-    border: 1px solid #999;
-    background-color: mediumblue;
-    color: white;
-    box-shadow: #808080;
-  }
-  
-  .btn:active {
-    margin-left: 3px;
-    margin-top: 3px;
-    box-shadow: none;
-  }
-  
-  @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-  }
-  
-  p.title {
-    font-family: 'IBMPlexSansKR-Regular';
-    font-size: 50px;
-    animation: fadeIn 2s;
-    margin: 0px;
-    margin-top: 60px;
-  }
-  
-  p.sub {
-    color: gray;
-    font-family: 'IBMPlexSansKR-Regular'; 
-    font-size: 20px;
-    animation: fadeIn 7s;
-  }
-  
+}
+
+p.title {
+  font-family: 'IBMPlexSansKR-Regular';
+  font-size: 50px;
+  animation: fadeIn 2s;
+  margin: 0px;
+  margin-top: 60px;
+}
+
+p.sub {
+  color: gray;
+  font-family: 'IBMPlexSansKR-Regular'; 
+  font-size: 20px;
+  animation: fadeIn 7s;
+}
