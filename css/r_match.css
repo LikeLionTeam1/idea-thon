@@ -1,4 +1,4 @@
-  @font-face {
+@font-face {
     font-family: 'IBMPlexSansKR-Regular';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
     font-weight: normal;
@@ -47,7 +47,7 @@
   }
   
   footer p {
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-bottom: 0;   
     font-size: 15px;
     width: 100%;
@@ -104,90 +104,29 @@
   .header .nav a:hover {
     color: rgb(161, 161, 161);
   }
-
-  section {
-    max-width: 450px;
-    margin: 50px auto;
-  }
-  section div {
-    max-width: 255px;
-    word-wrap: break-word;
-    margin-bottom: 20px;
-    line-height: 24px;
+  
+  select {
+    width: 230px;
+    height: 50px;
+    padding: 1px;
+    border: 1px solid #999;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 20px;
+    border-radius: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
   
-  .clear {
-    clear: both;
+  select::-ms-expand {
+    display: none;
   }
   
-  .from-me {
-    position: relative;
-    padding: 10px 20px;
-    color: white;
-    background: #0B93F6;
-    border-radius: 25px;
-    float: right;
-  }
-  .from-me:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    bottom: -2px;
-    right: -7px;
-    height: 20px;
-    border-right: 20px solid #0B93F6;
-    border-bottom-left-radius: 16px 14px;
-    -webkit-transform: translate(0, -2px);
-  }
-  .from-me:after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    bottom: -2px;
-    right: -56px;
-    width: 26px;
-    height: 20px;
-    background: white;
-    border-bottom-left-radius: 10px;
-    -webkit-transform: translate(-30px, -2px);
-  }
-  
-  .from-them {
-    position: relative;
-    padding: 10px 20px;
-    background: #E5E5EA;
-    border-radius: 25px;
-    color: black;
-    float: left;
-  }
-  .from-them:before {
-    content: "";
-    position: absolute;
-    z-index: 2;
-    bottom: -2px;
-    left: -7px;
-    height: 20px;
-    border-left: 20px solid #E5E5EA;
-    border-bottom-right-radius: 16px 14px;
-    -webkit-transform: translate(0, -2px);
-  }
-  .from-them:after {
-    content: "";
-    position: absolute;
-    z-index: 3;
-    bottom: -2px;
-    left: 4px;
-    width: 26px;
-    height: 20px;
-    background: white;
-    border-bottom-right-radius: 10px;
-    -webkit-transform: translate(-30px, -2px); 
-  }
   .btn {
     font-family: 'IBMPlexSansKR-Regular';
-    font-size: 15px;
-    width: 60px; 
-    height: 40px;
+    font-size: 25px;
+    width: 150px; 
+    height: 55px;
     border-radius: 15px;
     border: 1px solid #999;
     background-color: mediumblue;
@@ -200,3 +139,28 @@
     margin-top: 3px;
     box-shadow: none;
   }
+  
+  @keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  
+  p.title {
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 50px;
+    animation: fadeIn 2s;
+    margin: 0px;
+    margin-top: 60px;
+  }
+  
+  p.sub {
+    color: gray;
+    font-family: 'IBMPlexSansKR-Regular'; 
+    font-size: 20px;
+    animation: fadeIn 7s;
+  }
+  
