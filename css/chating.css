@@ -206,3 +206,14 @@
     color: white;
     font-family: 'IBMPlexSansKR-Regular';
   }
+
+  .input {
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(86, 86, 86);
+    background-image: url(../download/send.png);
+    background-position: 97%;
+    background-size: 27px;
+    background-repeat: no-repeat;
+  }
