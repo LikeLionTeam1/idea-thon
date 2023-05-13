@@ -1,227 +1,103 @@
-  @font-face {
-    font-family: 'IBMPlexSansKR-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Tenada';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'IBMPlexSansKR-Regular';
-    font-size: 20px;
-    font-weight: normal;
-  }
-  
-  #wrap {
-    min-height: 88.95vh;
-    position: relative;
-    width: 100%; 
-    background-color: #f2f2f2;
-  }
-  
-  footer {
-    width: 100%;
-    height: 90px;
-    bottom: 0px;
-    position: absolute;
-    padding-top: 15px;
-    color: #808080;
-    font-size: 11px;
-    display: flex;
-    background-color: white;
-  }
-  
-  footer a {
-    display: inline-block;
-    margin: 0 0px 0px 10px;
-    color: #808080; 
-    font-size: 11px;
-  }
-  
-  footer p {
-    margin-top: 10px; 
-    margin-bottom: 0;   
-    font-size: 15px;
-    width: 100%;
-  }
-  
-  footer p span {
-    display: inline-block;
-    margin-left: 30px;
-    padding-left: 126px;
-  }
-  
-  .figma {
-    width: 50px;
-    height: 50px;
-    margin-right: 0px;
-  }
-  
-  .github {
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
-    padding-right: 135px;
-  }
-  
-  .header {
-    width: 80%;
-    height: 72px;
-    margin: 0 auto 10px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    font-family: 'IBMPlexSansKR-Regular';
-  }
-  
-  .header h1 a {
-    text-decoration: none;
-    color: rgb(40, 40, 229);
-    font-family: 'Tenada';
-  }
-  
-  .header .nav ul li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  
-  .header .nav ul li a {
-    text-decoration: none;
-    display: inline-block;
-    color: black;
-    margin-top: 13px;
-    font-size: 20px;
-  }
-  
-  .header .nav a:hover {
-    color: rgb(161, 161, 161);
-  }
+@font-face {
+  font-family: 'IBMPlexSansKR-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
-  .btn {
-    font-family: 'IBMPlexSansKR-Regular';
-    font-size: 15px;
-    width: 60px; 
-    height: 40px;
-    border-radius: 15px;
-    border: 1px solid #999;
-    background-color: mediumblue;
-    color: white;
-    box-shadow: #808080;
-  }
-  
-  .btn:active {
-    margin-left: 3px;
-    margin-top: 3px;
-    box-shadow: none;
-  }
+@font-face {
+  font-family: 'Tenada';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
-  section {
-    max-width: 450px;
-    margin: 50px auto;
-  }
-  section div {
-    max-width: 255px;
-    word-wrap: break-word;
-    margin-bottom: 20px;
-    line-height: 24px;
-  }
-  
-  .clear {
-    clear: both;
-  }
-  
-  .from-me {
-    position: relative;
-    padding: 10px 20px;
-    color: white;
-    background: #0B93F6;
-    border-radius: 25px;
-    float: right;
-  }
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
-  .from-me:before {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    bottom: -2px;
-    right: -7px;
-    height: 20px;
-    border-right: 20px solid #0B93F6;
-    border-bottom-left-radius: 16px 14px;
-    -webkit-transform: translate(0, -2px);
-  }
+#wrap {
+  min-height: 88.95vh;
+  position: relative;
+  width: 100%; 
+  background-color: #f2f2f2;
+}
 
-  .from-me:after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    bottom: -2px;
-    right: -56px;
-    width: 26px;
-    height: 20px;
-    background: #f2f2f2;
-    border-bottom-left-radius: 10px;
-    -webkit-transform: translate(-30px, -2px);
-  }
-  
-  .from-them {
-    position: relative;
-    padding: 10px 20px;
-    background: #E5E5EA;
-    border-radius: 25px;
-    color: black;
-    float: left;
-  }
+footer {
+  width: 100%;
+  height: 90px;
+  bottom: 0px;
+  position: absolute;
+  padding-top: 15px;
+  color: #808080;
+  font-size: 11px;
+  display: flex;
+  background-color: white;
+}
 
-  .from-them:before {
-    content: "";
-    position: absolute;
-    z-index: 2;
-    bottom: -2px;
-    left: -7px;
-    height: 20px;
-    border-left: 20px solid #E5E5EA;
-    border-bottom-right-radius: 16px 14px;
-    -webkit-transform: translate(0, -2px);
-  }
-  
-  .from-them:after {
-    content: "";
-    position: absolute;
-    z-index: 3;
-    bottom: -2px;
-    left: 4px;
-    width: 26px;
-    height: 20px;
-    background: #f2f2f2;
-    border-bottom-right-radius: 10px;
-    -webkit-transform: translate(-30px, -2px);
-<<<<<<< HEAD
-=======
-  }
-  .btn {
-    font-family: 'IBMPlexSansKR-Regular';
-    font-size: 15px;
-    width: 60px; 
-    height: 40px;
-    border-radius: 15px;
-    border: 1px solid #999;
-    background-color: mediumblue;
-    color: white;
-    box-shadow: #808080;
-  }
-  
-  .btn:active {
-    margin-left: 3px;
-    margin-top: 3px;
-    box-shadow: none;
->>>>>>> 482b21bb060cd7db3867f89420ffdc321bc93a3d
-  }
+footer a {
+  display: inline-block;
+  margin: 0 0px 0px 10px;
+  color: #808080; 
+  font-size: 11px;
+}
+
+footer p {
+  margin-top: 10px; 
+  margin-bottom: 0;   
+  font-size: 15px;
+  width: 100%;
+}
+
+footer p span {
+  display: inline-block;
+  margin-left: 30px;
+  padding-left: 126px;
+}
+
+.figma {
+  width: 50px;
+  height: 50px;
+  margin-right: 0px;
+}
+
+.github {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  padding-right: 135px;
+}
+
+.header {
+  width: 80%;
+  height: 72px;
+  margin: 0 auto 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'IBMPlexSansKR-Regular';
+}
+
+.header h1 a {
+  text-decoration: none;
+  color: rgb(40, 40, 229);
+  font-family: 'Tenada';
+}
+
+.header .nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.header .nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  margin-top: 13px;
+  font-size: 20px;
+}
+
+.header .nav a:hover {
+  color: rgb(161, 161, 161);
+}
