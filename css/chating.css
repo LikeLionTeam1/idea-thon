@@ -101,3 +101,147 @@ footer p span {
 .header .nav a:hover {
   color: rgb(161, 161, 161);
 }
+
+section {
+  max-width: 800px;
+}
+
+section div {
+  width: 500px;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+
+section div p {
+  font-size: 18px;
+}
+
+.clear {
+  clear: both;
+}
+
+.from-me {
+  position: relative;
+  padding: 10px 20px;
+  color: white;
+  background: mediumblue;
+  border-radius: 25px;
+  float: right;
+}
+
+.from-me:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: -2px;
+  right: -7px;
+  height: 20px;
+  border-right: 20px solid mediumblue;
+  border-bottom-left-radius: 16px 14px;
+  -webkit-transform: translate(0, -2px);
+}
+
+.from-me:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: -2px;
+  right: -56px;
+  width: 26px;
+  height: 20px;
+  background: #f2f2f2;
+  border-bottom-left-radius: 10px;
+  -webkit-transform: translate(-30px, -2px);
+}
+
+.from-them {
+  position: relative;
+  padding: 10px 20px;
+  background: gainsboro;
+  border-radius: 25px;
+  color: black;
+  float: left;
+}
+
+.from-them:before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  bottom: -2px;
+  left: -7px;
+  height: 20px;
+  border-left: 20px solid gainsboro;
+  border-bottom-right-radius: 16px 14px;
+  -webkit-transform: translate(0, -2px);
+}
+
+.from-them:after {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  bottom: -2px;
+  left: 4px;
+  width: 26px;
+  height: 20px;
+  background: #f2f2f2;
+  border-bottom-right-radius: 10px;
+  -webkit-transform: translate(-30px, -2px);
+}
+
+.item {
+  width: 73%;
+  height: 100px;
+  display: flex;
+  background-color: mediumblue;
+  margin: 0 auto;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  margin-bottom: 0px;
+  font-size: 30px;
+  color: white;
+  font-family: 'IBMPlexSansKR-Regular';
+}
+
+.input {
+  height: 50px;
+  padding-left: 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(86, 86, 86);
+  background-image: url(../download/send.png);
+  background-position: 97%;
+  background-size: 27px;
+  background-repeat: no-repeat;
+}
+
+.blue {
+  width: 500px;
+  height: 83px;
+  background-color: mediumblue;
+  margin-bottom: 0px;
+  border: 0.1px dotted gray;
+  font-family: 'IBMPlexSansKR-Regular';
+  color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.white {
+  width: 500px;
+  height: 83px; 
+  background-color: white; 
+  margin-bottom: 0px;
+  border: 0.1px dotted gray;
+}
+
+.gray {
+  width: 500px;
+  height: 83px; 
+  background-color: gainsboro; 
+  margin-bottom: 0px;
+  border: 0.1px dotted gray;
+}
