@@ -224,6 +224,10 @@
     background-color: mediumblue;
     margin-bottom: 0px;
     border: 0.1px dotted gray;
+    font-family: 'IBMPlexSansKR-Regular';
+    color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
 
   .white {
