@@ -217,3 +217,17 @@
     background-size: 27px;
     background-repeat: no-repeat;
   }
+
+  .white {
+    width: 500px;
+    height: 83.5px; 
+    background-color: white; 
+    margin-bottom: 0px;
+  }
+
+  .gray {
+    width: 500px;
+    height: 83.5px; 
+    background-color: gainsboro; 
+    margin-bottom: 0px;
+  }
