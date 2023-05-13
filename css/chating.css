@@ -4,29 +4,26 @@
     font-weight: normal;
     font-style: normal;
   }
-  
+
   @font-face {
     font-family: 'Tenada';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
   }
-  
+
   html, body {
     margin: 0;
     padding: 0;
-    font-family: 'IBMPlexSansKR-Regular';
-    font-size: 20px;
-    font-weight: normal;
   }
-  
+
   #wrap {
     min-height: 88.95vh;
     position: relative;
     width: 100%; 
     background-color: #f2f2f2;
   }
-  
+
   footer {
     width: 100%;
     height: 90px;
@@ -38,40 +35,40 @@
     display: flex;
     background-color: white;
   }
-  
+
   footer a {
     display: inline-block;
     margin: 0 0px 0px 10px;
     color: #808080; 
     font-size: 11px;
   }
-  
+
   footer p {
     margin-top: 10px; 
     margin-bottom: 0;   
     font-size: 15px;
     width: 100%;
   }
-  
+
   footer p span {
     display: inline-block;
     margin-left: 30px;
     padding-left: 126px;
   }
-  
+
   .figma {
     width: 50px;
     height: 50px;
     margin-right: 0px;
   }
-  
+
   .github {
     width: 50px;
     height: 50px;
     margin-right: 20px;
     padding-right: 135px;
   }
-  
+
   .header {
     width: 80%;
     height: 72px;
@@ -81,18 +78,18 @@
     justify-content: space-between;
     font-family: 'IBMPlexSansKR-Regular';
   }
-  
+
   .header h1 a {
     text-decoration: none;
     color: rgb(40, 40, 229);
     font-family: 'Tenada';
   }
-  
+
   .header .nav ul li {
     display: inline-block;
     margin: 0 10px;
   }
-  
+
   .header .nav ul li a {
     text-decoration: none;
     display: inline-block;
@@ -100,7 +97,7 @@
     margin-top: 13px;
     font-size: 20px;
   }
-  
+
   .header .nav a:hover {
     color: rgb(161, 161, 161);
   }
@@ -109,13 +106,14 @@
     max-width: 450px;
     margin: 50px auto;
   }
+
   section div {
     max-width: 255px;
     word-wrap: break-word;
     margin-bottom: 20px;
     line-height: 24px;
   }
-  
+
   .clear {
     clear: both;
   }
@@ -128,6 +126,7 @@
     border-radius: 25px;
     float: right;
   }
+
   .from-me:before {
     content: "";
     position: absolute;
@@ -139,6 +138,7 @@
     border-bottom-left-radius: 16px 14px;
     -webkit-transform: translate(0, -2px);
   }
+
   .from-me:after {
     content: "";
     position: absolute;
@@ -160,6 +160,7 @@
     color: black;
     float: left;
   }
+
   .from-them:before {
     content: "";
     position: absolute;
@@ -171,6 +172,7 @@
     border-bottom-right-radius: 16px 14px;
     -webkit-transform: translate(0, -2px);
   }
+
   .from-them:after {
     content: "";
     position: absolute;
@@ -183,6 +185,7 @@
     border-bottom-right-radius: 10px;
     -webkit-transform: translate(-30px, -2px);
   }
+
   .btn {
     font-family: 'IBMPlexSansKR-Regular';
     font-size: 15px;
