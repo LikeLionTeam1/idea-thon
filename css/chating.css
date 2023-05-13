@@ -103,8 +103,7 @@
   }
 
   section {
-    max-width: 1000px;
-    margin: 50px auto;
+    max-width: 800px;
   }
 
   section div {
@@ -190,20 +189,20 @@
     -webkit-transform: translate(-30px, -2px);
   }
 
-  .btn {
-    font-family: 'IBMPlexSansKR-Regular';
-    font-size: 15px;
-    width: 60px; 
-    height: 40px;
-    border-radius: 15px;
-    border: 1px solid #999;
+  .item {
+    width: 73%;
+    height: 100px;
+    display: flex;
     background-color: mediumblue;
-    color: white;
-    box-shadow: #808080;
+    margin: 0 auto;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
   }
-  
-  .btn:active {
-    margin-left: 3px;
-    margin-top: 3px;
-    box-shadow: none;
+
+  .text {
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: white;
+    font-family: 'IBMPlexSansKR-Regular';
   }
